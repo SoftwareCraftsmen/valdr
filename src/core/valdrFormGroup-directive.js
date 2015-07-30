@@ -5,7 +5,7 @@
  */
 var valdrFormGroupDirectiveDefinition =
   ['valdrClasses', 'valdrConfig', function (valdrClasses, valdrConfig) {
-    return  {
+    return {
       restrict: 'EA',
       link: function (scope, element) {
         if (valdrConfig.addFormGroupClass) {
@@ -98,7 +98,9 @@ var valdrFormGroupDirectiveDefinition =
         };
 
         this.removeMessageElement = function (ngModelController) {
-          messageElements[ngModelController.$name].remove();
+          if (messageElements[ngModelController.$name]) {
+            messageElements[ngModelController.$name].remove();
+          }
         };
 
       }]
