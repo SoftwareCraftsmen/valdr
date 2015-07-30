@@ -1,11 +1,14 @@
 {
-  "author": "Netcetera AG",
-  "name": "valdr",
+  "authors": [
+    "Netcetera AG",
+    "Software Craftsmen GmbH"
+  ],
+  "name": "valdr-softwarecraftsmen",
   "description": "A model centric approach to AngularJS form validation",
-  "homepage": "https://github.com/netceteragroup/valdr",
+  "homepage": "https://github.com/softwarecraftsmen/valdr",
   "repository": {
     "type": "git",
-    "url": "git://github.com/netceteragroup/valdr"
+    "url": "git://github.com/softwarecraftsmen/valdr"
   },
   "devDependencies": {
     "angular": "1.3.3",

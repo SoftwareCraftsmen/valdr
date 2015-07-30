@@ -481,7 +481,7 @@ to be used by valdr. This allows to apply the exact same validation rules on the
 Clone and install dependencies:
 
 ```bash
-git clone https://github.com/netceteragroup/valdr.git
+git clone https://github.com/softwarecraftsmen/valdr.git
 cd valdr
 npm install
 ```
